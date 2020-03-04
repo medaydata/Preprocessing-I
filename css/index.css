@@ -1,1 +1,59 @@
 /* Compile your LESS file! */
+*{ 
+    background-color: lightsteelblue;
+    margin-left: 5%;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    
+}
+
+
+header .nav-class #nav{
+    display: flex;
+    justify-content: space-around;
+     border: 1px solid black;
+   width: 120%;
+}
+header .introduction{
+    display: flex;
+    padding: 2%;
+    width:100%;
+    align-items: center;
+    
+}
+header .introduction .introduction-head{
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+    
+}
+header .introduction .introduction-head p{
+   width: 52%;
+   font-size: 1.2em;
+
+}
+/*!education*/
+
+.what_i_do {
+    display: flex;
+    flex-direction: column;
+}
+
+.what_i_do .container{
+    display: flex;
+    flex-direction: column;
+}
+.what_i_do .container div{
+    display: flex;
+}
+.experiences{
+    display: flex;
+    width: 100%;
+}
